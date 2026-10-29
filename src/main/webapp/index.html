@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Idea Submission Entry</title>
+
+    <style>
+        body {
+            background-color: beige;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkred;
+        }
+
+        button {
+            color: darkred;
+        }
+
+        button:hover {
+            color: firebrick;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="result.jsp" method="post">
+
+        <h1>Project Idea Submission Entry</h1>
+
+        Student<br>
+        <input type="text" name="Stud" placeholder="Ritu" required>
+        <br><br>
+
+        Title<br>
+        <input type="text" name="title" placeholder="Bus Tracker" required>
+        <br><br>
+
+        Domain<br>
+        <select name="domain" required>
+            <option value="Web">Web</option>
+            <option value="Mobile">Mobile</option>
+            <option value="AI">AI</option>
+            <option value="IoT">IoT</option>
+        </select>
+        <br><br>
+
+        Description<br>
+        <textarea name="des" placeholder="Track College Bus Live" required></textarea>
+        <br><br>
+
+        <button type="submit">Save</button>
+
+    </form>
+
+</body>
+</html>
